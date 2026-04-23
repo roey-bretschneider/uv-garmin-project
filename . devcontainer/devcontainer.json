@@ -1,12 +1,14 @@
 {
     "name": "Garmin AI Dev",
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
         "ghcr.io/devcontainers/features/desktop-lite:1": {}
     },
     "customizations": {
         "vscode": {
-            "extensions": ["ghisguth.monkey-c"]
+            "extensions": [
+                "ghisguth.monkey-c"
+            ]
         }
     },
     "forwardPorts": [6080]
